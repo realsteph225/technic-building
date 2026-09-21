@@ -267,6 +267,9 @@ section{padding:5.5rem 0}
 .legal dd{margin:0;color:var(--encre);font-family:Archivo,sans-serif;font-weight:600;overflow-wrap:anywhere}
 footer{padding:2rem 0 3rem;border-top:1px solid var(--trait);font-size:.82rem;color:var(--beton);
   display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-family:Archivo,sans-serif}
+.compteur-visites{display:inline-flex;align-items:center;transition:transform .2s ease,opacity .2s ease}
+.compteur-visites:hover,.compteur-visites:focus-visible{transform:translateY(-1px);opacity:.88;outline:none}
+.compteur-visites img{width:106px;height:28px}
 
 /* ---------- visionneuse ---------- */
 .visionneuse{
